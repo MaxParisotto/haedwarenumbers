@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hardware Numb3rs — Tech Reviews, Benchmarks &amp; More</title>
+  <meta name="description" content="Hardware Numb3rs — your go-to YouTube channel for in-depth hardware reviews, benchmarks, and tech analysis." />
+  <meta property="og:title" content="Hardware Numb3rs" />
+  <meta property="og:description" content="In-depth hardware reviews, benchmarks, and tech analysis on YouTube." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://hardwarenumbers.com" />
+  <meta property="og:image" content="https://hardwarenumbers.com/assets/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <!-- Hero -->
+  <header class="hero" id="top">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#top" class="nav__logo" aria-label="Hardware Numb3rs home">
+        <span class="nav__logo-icon" aria-hidden="true">⚙</span>
+        Hardware Numb3rs
+      </a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#subscribe" class="btn btn--small">Subscribe</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <div class="hero__content">
+      <h1 class="hero__title">
+        Hardware<br /><span class="hero__accent">Numb3rs</span>
+      </h1>
+      <p class="hero__subtitle">
+        In-depth hardware reviews, benchmarks, and tech analysis — distilled into numbers that matter.
+      </p>
+      <div class="hero__cta">
+        <a href="https://www.youtube.com/c/HardwareNumb3rs?sub_confirmation=1" target="_blank" rel="noopener" class="btn btn--primary">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0C.488 3.45.029 5.804 0 12c.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0C23.512 20.55 23.971 18.196 24 12c-.029-6.185-.484-8.549-4.385-8.816zM9 16V8l8 4-8 4z"/></svg>
+          Subscribe on YouTube
+        </a>
+        <a href="#videos" class="btn btn--outline">Watch Latest</a>
+      </div>
+    </div>
+
+    <div class="hero__grid" aria-hidden="true">
+      <div class="hero__grid-line"></div>
+      <div class="hero__grid-line"></div>
+      <div class="hero__grid-line"></div>
+      <div class="hero__grid-line"></div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section__title">About the Channel</h2>
+      <div class="about__grid">
+        <div class="about__card">
+          <div class="about__card-icon">🔬</div>
+          <h3>Rigorous Testing</h3>
+          <p>Every product goes through a structured test methodology so you get consistent, comparable results — not just opinions.</p>
+        </div>
+        <div class="about__card">
+          <div class="about__card-icon">📊</div>
+          <h3>Data-Driven</h3>
+          <p>Charts, thermals, power draw, noise levels — the numbers tell the story. We show you the data so you can decide for yourself.</p>
+        </div>
+        <div class="about__card">
+          <div class="about__card-icon">🎯</div>
+          <h3>No Fluff</h3>
+          <p>Straight to the point. We respect your time with concise, well-edited content that covers what matters.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Videos -->
+  <section class="section videos" id="videos">
+    <div class="container">
+      <h2 class="section__title">Latest Videos</h2>
+      <div class="videos__grid" id="videos-grid">
+        <!-- Populated by JS from YouTube RSS/API -->
+      </div>
+      <p class="videos__fallback" id="videos-fallback" hidden>
+        Unable to load videos. <a href="https://www.youtube.com/c/HardwareNumb3rs/videos" target="_blank" rel="noopener">Watch on YouTube →</a>
+      </p>
+      <div class="videos__more">
+        <a href="https://www.youtube.com/c/HardwareNumb3rs/videos" target="_blank" rel="noopener" class="btn btn--outline">
+          View All Videos on YouTube
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe CTA -->
+  <section class="section subscribe" id="subscribe">
+    <div class="container subscribe__inner">
+      <h2 class="subscribe__title">Don't Miss a Video</h2>
+      <p class="subscribe__text">
+        Join the community and get notified when new reviews and benchmarks drop.
+      </p>
+      <div class="subscribe__actions">
+        <a href="https://www.youtube.com/c/HardwareNumb3rs?sub_confirmation=1" target="_blank" rel="noopener" class="btn btn--primary btn--large">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0C.488 3.45.029 5.804 0 12c.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0C23.512 20.55 23.971 18.196 24 12c-.029-6.185-.484-8.549-4.385-8.816zM9 16V8l8 4-8 4z"/></svg>
+          Subscribe Now
+        </a>
+      </div>
+      <div class="subscribe__socials">
+        <a href="https://www.youtube.com/c/HardwareNumb3rs" target="_blank" rel="noopener" aria-label="YouTube" class="social-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0C.488 3.45.029 5.804 0 12c.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0C23.512 20.55 23.971 18.196 24 12c-.029-6.185-.484-8.549-4.385-8.816zM9 16V8l8 4-8 4z"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> Hardware Numb3rs. All rights reserved.</p>
+      <p class="footer__links">
+        <a href="https://www.youtube.com/c/HardwareNumb3rs" target="_blank" rel="noopener">YouTube</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
